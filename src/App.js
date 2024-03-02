@@ -1,31 +1,25 @@
 
-import React from 'react';
-import Nav from './Components/Navbar/NAv';
-import Car from './Components/Carousel/caro';
-import Fandom from './Components/Fandom/Fandom';
-import Tsp from './Components/Top selling products/tsp';
-import Footer from './Components/Foter/Footer';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Home from './Pages/Home';
 
-class App extends React.Component {
+function App() {
+  return (
+    <div>
+       
+        
 
-
-
-
-  render() {
+    <BrowserRouter >
       
-      
-      return (
-          <div>
-              <Nav/>
-              <Car/>
-              <Fandom/>
-              <Tsp/>
-              <Footer/>
-          </div>
-      )
-  }
+      <Routes>
+        <Route path="/" element={<Home />} />
+
+        {/* <Route path="/Teams" element={<Team />} />  */}
+
+      </Routes> 
+    </BrowserRouter>
+
+    </div>
+  );
 }
 
-
-export default  App;
+export default App;
