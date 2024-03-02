@@ -1,0 +1,16 @@
+.banner{
+    background-color: red;
+    height:10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(371px,1fr));
+    grid-template-rows: 1fr; 
+}
+.logo img{
+    height: 8rem;
+    margin:1rem;
+    border-radius: 1rem;
+}
+header{
+    box-shadow:    0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Poppins', sans-serif;
+}

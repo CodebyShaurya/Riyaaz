@@ -1,0 +1,13 @@
+.brow{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.crdgrid{
+        display:grid;
+        grid-gap:10px;
+        grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+        justify-items: center;
+}
