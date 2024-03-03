@@ -1,7 +1,7 @@
 import { Fragment, useState } from 'react'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
-import logo from './Logo.png'
-import './nav.css';
+import logo from '../Fandom'
+import '../CSS/nav.css';
 import {
   ArrowPathIcon,
   Bars3Icon,

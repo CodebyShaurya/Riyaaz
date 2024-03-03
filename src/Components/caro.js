@@ -3,7 +3,7 @@ import ExampleCarouselImage1 from './Naruto.png';
 import ExampleCarouselImage2 from './Screenshot (334).png';
 import ExampleCarouselImage3 from './Screenshot (335).png';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './caro.css';
+import '../CSS/caro.css';
 
 function UncontrolledExample() {
   return (

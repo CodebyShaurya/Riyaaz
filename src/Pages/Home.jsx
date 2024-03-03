@@ -1,10 +1,10 @@
 import React from 'react';
-import Nav from './Components/Navbar/NAv';
-import Car from './Components/Carousel/caro';
-import Fandom from './Components/Fandom/Fandom';
-import Tsp from './Components/Top selling products/tsp';
-import Footer from './Components/Foter/Footer';
-import './App.css';
+import Nav from '../Components/NAv';
+import Car from '../Components/caro';
+import Fandom from '../Components/Fandom';
+import Tsp from '../Components/tsp';
+import Footer from '../Components/Footer';
+// import '../CSS/App.css';
 
 class App extends React.Component {
 

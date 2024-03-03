@@ -1,5 +1,5 @@
 import React from 'react';
-import './Fandom.css'
+import '../CSS/Fandom.css'
 import Card from '../card/card';
 import naruto from './Uzumaki.jpg';
 import kop from './King of pirates.jpg';
