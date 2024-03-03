@@ -29,4 +29,70 @@
 
 .point{
     font-size: 25px;
+    margin-top: 20px;
+}
+
+.account{
+    margin:10rem;
+    box-shadow:   0  9px 08px 1px #2383f0, 0 6px 20px 10px #54c5e7;
+    border-radius: 1rem;
+    height: 15rem;
+    text-align: center;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+}
+.account h1{
+    margin-top: 5rem;
+    color: black;
+    grid-column: span 2;
+}
+.account button{
+    margin-top: 5rem;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.account button:hover{
+    width: 11rem;
+    height: 4rem;
+}
+
+.blacknwhit{
+    background-color: #2383f0;
+    color: white;
+}
+
+.whitnblack{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+@media screen and (max-width:1100px){
+    .account{
+        margin:5rem;
+    }
+    
+}
+
+@media screen and (max-width:830px){
+    .grid1{
+        display: block;
+    }
+
+    .account button{
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (max-width:540px){
+    .account{
+        margin: 2.5rem;
+        height: auto;
+    }
 }
