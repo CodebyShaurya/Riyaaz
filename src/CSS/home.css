@@ -14,9 +14,19 @@
 .featuregrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .sticker{
     font-size: 50px;
+    text-align: end;
+}
+
+.feat{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.point{
+    font-size: 25px;
 }
