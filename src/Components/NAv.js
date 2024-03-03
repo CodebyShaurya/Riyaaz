@@ -1,6 +1,6 @@
 import { Fragment, useState } from 'react'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
-import logo from '../Fandom'
+import logo from '../Pictures/download-removebg-preview.png'
 import '../CSS/nav.css';
 import {
   ArrowPathIcon,

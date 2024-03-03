@@ -1,10 +1,10 @@
 import React from 'react';
 import '../CSS/Fandom.css'
-import Card from '../card/card';
-import naruto from './Uzumaki.jpg';
-import kop from './King of pirates.jpg';
-import saiyan from './Saiyan.jpg';
-import spl from './Ganesh Chaturti.jpg';
+import Card from './card';
+import naruto from '../Pictures/Uzumaki.jpg';
+import kop from '../Pictures/King of pirates.jpg';
+import saiyan from '../Pictures/Saiyan.jpg';
+import spl from '../Pictures/Ganesh Chaturti.jpg';
 class App extends React.Component {
 
 

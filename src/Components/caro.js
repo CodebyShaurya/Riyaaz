@@ -1,14 +1,14 @@
 import Carousel from 'react-bootstrap/Carousel';
-import ExampleCarouselImage1 from './Naruto.png';
-import ExampleCarouselImage2 from './Screenshot (334).png';
-import ExampleCarouselImage3 from './Screenshot (335).png';
+import ExampleCarouselImage1 from '../Pictures/1.png';
+import ExampleCarouselImage2 from '../Pictures/Screenshot (334).jpg';
+import ExampleCarouselImage3 from '../Pictures/Colorful Guitar Hippie Playlist 2022 Youtube Channel Art.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../CSS/caro.css';
 
 function UncontrolledExample() {
   return (
     <div className='up'>
-    <Carousel data-bs-theme="dark">
+    <Carousel data-bs-theme="dark" className='carosel'>
       <Carousel.Item>
         <img src={ExampleCarouselImage1} />
         {/* <Carousel.Caption>

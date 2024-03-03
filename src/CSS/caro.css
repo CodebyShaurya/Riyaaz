@@ -1,4 +1,7 @@
-
+.carosel{
+    height: 702px;
+    width:100%;
+}
 .up{
     margin-top: 1rem;
     height:auto;
