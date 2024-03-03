@@ -4,7 +4,7 @@ import Car from '../Components/caro';
 import Fandom from '../Components/Fandom';
 import Tsp from '../Components/tsp';
 import Footer from '../Components/Footer';
-// import '../CSS/App.css';
+import '../CSS/home.css';
 
 class App extends React.Component {
 
@@ -18,8 +18,46 @@ class App extends React.Component {
           <div>
               <Nav/>
               <Car/>
-              <Fandom/>
-              <Tsp/>
+              {/* <Fandom/>
+              <Tsp/> */}
+              <div className='tagline'>
+                    
+                    Unleash Your Inner Musician with AI-Powered Learning
+              </div>
+
+              <div className='features'>
+                <div className='feathead'>
+                    What do we offer ??
+                </div>
+                <div className='featuregrid'>
+                    <div className='feat'>
+                        <div className='sticker'>🎹</div>
+                        <div className='point'>LOREM IMPSUM LORE IPSUM LOREM IPUS</div>
+                    </div>
+
+                    <div className='feat'>
+                        <div className='sticker'>🎹</div>
+                        <div className='point'>LOREM IMPSUM LORE IPSUM LOREM IPUS</div>
+                    </div>
+
+
+                    <div className='feat'>
+                        <div className='sticker'>🎹</div>
+                        <div className='point'>LOREM IMPSUM LORE IPSUM LOREM IPUS</div>
+                    </div>
+
+                    <div className='feat'>
+                        <div className='sticker'>🎹</div>
+                        <div className='point'>LOREM IMPSUM LORE IPSUM LOREM IPUS</div>
+                    </div>
+                </div>
+
+
+
+              </div>
+
+
+
               <Footer/>
           </div>
       )
